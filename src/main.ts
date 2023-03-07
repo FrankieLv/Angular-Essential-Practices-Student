@@ -9,19 +9,6 @@ import { bootstrapApplication } from '@angular/platform-browser';
   imports: [CommonModule],
   templateUrl: 'myapp.html',
 })
-export class App {
-  value = 'Angular';
-
-  onClick(event: any) {
-    console.log('Click Event, value is: ' + event);
-  }
-
-  classes = 'bad curly';
-
-  isDisplayed = true;
-  list = [{ name: 'A' }, { name: 'B' }, { name: 'C' }];
-
-  title = 'Hello Guys';
-}
+export class App {}
 
 bootstrapApplication(App);
